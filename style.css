@@ -1,0 +1,207 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation  li.logo {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+#banner {
+  background-image: url(/home/rebeca/Escritorio/WEB-development/adventure.jpg);
+   background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+  
+background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  height: 620px;
+  width: 100%;
+}
+
+#banner .content h3 {
+  position: relative;
+  top: 380px;
+  width: 500px;
+  margin: 0 auto;
+color: white;
+font-family: MathJax_Caligraphic; 
+}
+#banner .information{
+  position: relative;
+  top: 150px;
+  width: 500px;
+  margin: 0 auto;
+color: white;
+font-family: Purisa; 
+}
+
+
+#baner .options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li {
+    display: inline;
+   float: right;
+}
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #dddddd;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+  top: 150px;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+
+.socialMedia {
+  background-color: black;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}
+hr {
+ width: 85% ;
+ size: 1;
+
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
